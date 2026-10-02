@@ -7,7 +7,7 @@ Backend Developer &middot; .NET / C# &middot; Santar&eacute;m, Portugal
 
 ---
 
-I build **Web APIs with ASP.NET Core**. By day I'm a Junior Backend Developer sharing a .NET codebase with another developer. Outside that, I keep personal projects to push into what the job doesn't cover yet - layered separation, JWT, asynchronous processing and automated testing.
+I build **Web APIs with ASP.NET Core**. By day I'm a Backend Developer sharing a .NET codebase with another developer. Outside that, I keep personal projects to push into what the job doesn't cover yet - layered separation, JWT, asynchronous processing and automated testing.
 
 What I care about: someone else should be able to clone the repo, run it and change it without asking me anything. In practice that means consistent validation, predictable HTTP responses, and a README that explains the decisions instead of listing the files.
 
