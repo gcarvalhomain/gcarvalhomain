@@ -1,34 +1,16 @@
-<h1 align="center">Gabriel Paes de Carvalho</h1>
+# Gabriel Paes de Carvalho
 
-<p align="center">
-  Backend Developer &nbsp;·&nbsp; .NET / C# &nbsp;·&nbsp; Santarém, Portugal
-</p>
+Backend Developer · .NET / C# · Santarém, Portugal
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/gabriel-paes-carvalho">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:YOUR-EMAIL@EXAMPLE.COM">
-    <img src="https://img.shields.io/badge/Email-512BD4?style=flat-square&logo=maildotru&logoColor=white" alt="Email" />
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-paes-carvalho)
 
 ---
 
-I build **Web APIs with ASP.NET Core** — from domain modelling to a documented endpoint. My focus is on code someone else can read, test and maintain: clear separation of concerns, consistent validation and predictable HTTP responses.
+I build **Web APIs with ASP.NET Core**. By day I'm a Junior Backend Developer sharing a .NET codebase with another developer. Outside that, I keep personal projects to push into what the job doesn't cover yet — layered separation, JWT, asynchronous processing and automated testing.
 
-I currently work as a Junior Backend Developer and keep personal projects where I go deeper into what my day-to-day does not cover — Clean Architecture, JWT authentication and asynchronous processing.
+What I care about: someone else should be able to clone the repo, run it and change it without asking me anything. In practice that means consistent validation, predictable HTTP responses, and a README that explains the decisions instead of listing the files.
 
-Open to backend .NET opportunities around Santarém, Greater Lisbon or Coimbra — remote, hybrid or on-site.
-
-```csharp
-public sealed class Gabriel
-{
-    public string Role      => "Junior Backend Developer";
-    public string Focus     => "Clean, testable and documented Web APIs";
-    public string Principle => "Understand the problem before writing the first line";
-}
-```
+Open to backend .NET roles around **Santarém, Greater Lisbon or Coimbra** — remote, hybrid or on-site.
 
 ---
 
@@ -36,40 +18,40 @@ public sealed class Gabriel
 
 | Area | Technologies |
 |:---|:---|
-| **Language** | C# |
-| **Framework** | ASP.NET Core — Web API and Minimal API |
-| **Data** | Entity Framework Core, SQL Server, Migrations |
-| **Architecture** | Clean Architecture, Dependency Injection, Outbox pattern |
-| **Security** | JWT authentication, role-based authorisation |
+| **Language** | C# (.NET 8 / .NET 10) |
+| **Web** | ASP.NET Core — Minimal APIs and Web API |
+| **Data** | Entity Framework Core, SQL Server, code-first migrations |
+| **Security** | JWT Bearer, role-based authorisation, PBKDF2 password hashing |
+| **Design** | Layered separation, Dependency Injection, Outbox pattern |
+| **Testing & docs** | xUnit, OpenAPI / Scalar |
 | **Tooling** | Git, GitHub, Azure DevOps |
 
 ---
 
-## Projects
+## Featured project — [Authdoc](https://github.com/gcarvalhomain/Authdoc)
 
-| Project | What it is | What it demonstrates |
-|:---|:---|:---|
-| **[Authdoc](https://github.com/gcarvalhomain/Authdoc)** | Registration and authentication API for a document organisation system | Clean Architecture with isolated layers, Outbox pattern and Workers for asynchronous processing |
-| **[ApiUsers](https://github.com/gcarvalhomain/ApiUsers)** | Minimal API for user management | Full CRUD, JWT with roles, pagination, filtering and sorting, documented endpoints |
-| **[LoudApi](https://github.com/gcarvalhomain/LoudApi)** | Events and news API for VELO, a CS2 frontend | Domain modelling and integration with a real consumer |
+Identity and access API for a document platform aimed at immigrants. The central guarantee is simple: **each user reaches only their own documents**. So the project starts at the identity layer, because everything else depends on it.
+
+| Built | Decision behind it |
+|:---|:---|
+| JWT issuing and validation | HMAC-SHA256, with issuer, audience, lifetime and signature checked on every request |
+| Role-based authorisation | An `Admin` policy guards the administrative routes, and `Role` is not writable through the update endpoint, so a payload cannot escalate privilege |
+| Password hashing | PBKDF2 with a random salt via the ASP.NET Core password hasher, with format versioning so hashes can be rehashed as the algorithm evolves |
+| Idempotent bootstrap | Pending migrations and the first admin are applied at startup, solving the chicken-and-egg problem of an admin-only registration endpoint, safely on every run |
+| GUID identifiers | No sequential enumeration of resources, which matters once those resources are personal documents |
+
+The repo documents the reasoning in full, including what is **not** built yet and why. Next: the documents module with resource-based authorisation, and integration tests with xUnit and `WebApplicationFactory`.
 
 ---
 
 ## Currently learning
 
-What I am going deeper into right now:
-
-- **Automated testing** — xUnit and integration tests
-- **Reading code critically** — following execution flows and reaching the root cause faster
-- **Containers and deployment** — Docker and CI/CD pipelines
+| Focus | What that means in practice |
+|:---|:---|
+| **Automated testing** | xUnit and integration tests with `WebApplicationFactory` |
+| **Reading code critically** | Following an execution flow to the root cause instead of guessing |
+| **Docker and CI/CD** | Containerising an API and wiring a GitHub Actions pipeline |
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcarvalhomain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&langs_count=5" alt="Most used languages" height="150" />
-</p>
-
-<p align="center">
-  Happy to talk about .NET, opportunities or collaboration —
-  <a href="https://www.linkedin.com/in/gabriel-paes-carvalho">LinkedIn</a>
-</p>
+Happy to talk about .NET, opportunities or collaboration — [LinkedIn](https://www.linkedin.com/in/gabriel-paes-carvalho)
