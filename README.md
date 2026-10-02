@@ -1,16 +1,17 @@
 # Gabriel Paes de Carvalho
 
-Backend Developer · .NET / C# · Santarém, Portugal
+Backend Developer &middot; .NET / C# &middot; Santar&eacute;m, Portugal
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-paes-carvalho)
+[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:gabriel.p.carva@outlook.com)
 
 ---
 
-I build **Web APIs with ASP.NET Core**. By day I'm a Junior Backend Developer sharing a .NET codebase with another developer. Outside that, I keep personal projects to push into what the job doesn't cover yet — layered separation, JWT, asynchronous processing and automated testing.
+I build **Web APIs with ASP.NET Core**. By day I'm a Junior Backend Developer sharing a .NET codebase with another developer. Outside that, I keep personal projects to push into what the job doesn't cover yet - layered separation, JWT, asynchronous processing and automated testing.
 
 What I care about: someone else should be able to clone the repo, run it and change it without asking me anything. In practice that means consistent validation, predictable HTTP responses, and a README that explains the decisions instead of listing the files.
 
-Open to backend .NET roles around **Santarém, Greater Lisbon or Coimbra** — remote, hybrid or on-site.
+Open to backend .NET roles around **Santar&eacute;m, Greater Lisbon or Coimbra** - remote, hybrid or on-site.
 
 ---
 
@@ -19,7 +20,7 @@ Open to backend .NET roles around **Santarém, Greater Lisbon or Coimbra** — r
 | Area | Technologies |
 |:---|:---|
 | **Language** | C# (.NET 8 / .NET 10) |
-| **Web** | ASP.NET Core — Minimal APIs and Web API |
+| **Web** | ASP.NET Core - Minimal APIs and Web API |
 | **Data** | Entity Framework Core, SQL Server, code-first migrations |
 | **Security** | JWT Bearer, role-based authorisation, PBKDF2 password hashing |
 | **Design** | Layered separation, Dependency Injection, Outbox pattern |
@@ -28,7 +29,7 @@ Open to backend .NET roles around **Santarém, Greater Lisbon or Coimbra** — r
 
 ---
 
-## Featured project — [Authdoc](https://github.com/gcarvalhomain/Authdoc)
+## Featured project: [Authdoc](https://github.com/gcarvalhomain/Authdoc)
 
 Identity and access API for a document platform aimed at immigrants. The central guarantee is simple: **each user reaches only their own documents**. So the project starts at the identity layer, because everything else depends on it.
 
@@ -54,4 +55,4 @@ The repo documents the reasoning in full, including what is **not** built yet an
 
 ---
 
-Happy to talk about .NET, opportunities or collaboration — [LinkedIn](https://www.linkedin.com/in/gabriel-paes-carvalho)
+Happy to talk about .NET, opportunities or collaboration: [LinkedIn](https://www.linkedin.com/in/gabriel-paes-carvalho)
