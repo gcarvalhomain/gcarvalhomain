@@ -1,116 +1,75 @@
-<!-- ============ BANNER ============ -->
-<div align="center">
+<h1 align="center">Gabriel Paes de Carvalho</h1>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E57E0,100:512BD4&height=180&section=header&text=Gabriel%20Paes%20de%20Carvalho&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Backend%20Developer%20%7C%20.NET%20%7C%20C%23&descAlignY=52&descSize=16" width="100%" />
+<p align="center">
+  Backend Developer &nbsp;·&nbsp; .NET / C# &nbsp;·&nbsp; Santarém, Portugal
+</p>
 
-<!-- ============ TYPING SVG ============ -->
-<a href="https://github.com/gcarvalhomain">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=6E57E0&center=true&vCenter=true&width=600&lines=Backend+Developer+%7C+.NET+%2F+C%23;ASP.NET+Core+%E2%80%A2+EF+Core+%E2%80%A2+SQL+Server;Clean+Architecture+%26+Web+APIs;Based+in+Portugal+%F0%9F%87%B5%F0%9F%87%B9" alt="Typing SVG" />
-</a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/gabriel-paes-carvalho">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:SEU-EMAIL@EXEMPLO.COM">
+    <img src="https://img.shields.io/badge/Email-512BD4?style=flat-square&logo=maildotru&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-<br/>
+---
 
-<!-- ============ SOCIAL BADGES ============ -->
-<a href="https://www.linkedin.com/in/gabriel-paes-carvalho">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:SEU-EMAIL@EXEMPLO.COM">
-  <img src="https://img.shields.io/badge/Email-6E57E0?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<img src="https://img.shields.io/badge/Portugal-%F0%9F%87%B5%F0%9F%87%B9-512BD4?style=for-the-badge" alt="Portugal" />
-<img src="https://komarev.com/ghpvc/?username=gcarvalhomain&style=for-the-badge&color=6E57E0&label=PROFILE+VIEWS" alt="Profile views" />
+Desenvolvo **Web APIs em ASP.NET Core** — da modelagem do domínio ao endpoint documentado. O meu foco está em código que outra pessoa consegue ler, testar e manter: separação de responsabilidades, validação consistente e respostas HTTP previsíveis.
 
-</div>
+Trabalho atualmente como Junior Backend Developer e mantenho projetos pessoais onde aprofundo o que não aparece no dia a dia — Clean Architecture, autenticação JWT e processamento assíncrono.
 
-<br/>
-
-<!-- ============ SOBRE ============ -->
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25"> &nbsp;Sobre mim
+Disponível para oportunidades de backend .NET na região de Santarém, Grande Lisboa ou Coimbra, em regime remoto, híbrido ou presencial.
 
 ```csharp
-public class Gabriel : IBackendDeveloper
+public sealed class Gabriel
 {
-    public string Role     => "Junior Backend Developer";
-    public string Location => "Santarém, Portugal";
-    public string[] Stack  => ["C#", "ASP.NET Core", "EF Core", "SQL Server"];
-    public string Focus    => "Web APIs limpas, testáveis e bem documentadas";
-    public bool   OpenToWork => true;
+    public string  Role     => "Junior Backend Developer";
+    public string  Focus    => "Web APIs limpas, testáveis e documentadas";
+    public string  Principle => "Entender o problema antes de escrever a primeira linha";
 }
 ```
 
-Desenvolvedor backend focado em **C#** e **ASP.NET Core**. Construo Web APIs do zero — autenticação JWT, Entity Framework Core, Clean Architecture e processamento assíncrono — sempre com o código documentado e pronto para alguém de fora entender.
+---
 
-Atualmente disponível para oportunidades de **.NET backend júnior** em regime remoto, híbrido ou presencial na região de **Santarém, Grande Lisboa ou Coimbra**.
+## Stack
 
-<br/>
+| Área | Tecnologias |
+|:---|:---|
+| **Linguagem** | C# |
+| **Framework** | ASP.NET Core — Web API e Minimal API |
+| **Dados** | Entity Framework Core, SQL Server, Migrations |
+| **Arquitetura** | Clean Architecture, Injeção de Dependências, padrão Outbox |
+| **Segurança** | Autenticação JWT, autorização por roles |
+| **Ferramentas** | Git, GitHub, Azure DevOps |
 
-<!-- ============ STACK ============ -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> &nbsp;Tech Stack
+---
 
-<div align="center">
+## Projetos
 
-### Linguagens & Frameworks
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-6E57E0?style=for-the-badge&logo=dotnet&logoColor=white)
+| Projeto | O que é | O que demonstra |
+|:---|:---|:---|
+| **[Authdoc](https://github.com/gcarvalhomain/Authdoc)** | API de cadastro e autenticação para organização de documentos | Clean Architecture com camadas isoladas, padrão Outbox e Workers para processamento assíncrono |
+| **[ApiUsers](https://github.com/gcarvalhomain/ApiUsers)** | Minimal API de gestão de utilizadores | CRUD completo, JWT com roles, paginação, filtros e ordenação, documentação de endpoints |
+| **[LoudApi](https://github.com/gcarvalhomain/LoudApi)** | API de eventos e notícias de CS2 para o frontend VELO | Modelagem de domínio e integração com um consumidor real |
 
-### Dados
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+---
 
-### Ferramentas
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
-![Rider](https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+## Em evolução
 
-</div>
+O que estou a aprofundar neste momento:
 
-<br/>
+- **Testes automatizados** — xUnit e testes de integração
+- **Leitura crítica de código** — acompanhar fluxos de execução e chegar à causa-raiz mais depressa
+- **Containers e deploy** — Docker e pipelines de CI/CD
 
-<!-- ============ PROJETOS ============ -->
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="25"> &nbsp;Projetos em destaque
+---
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcarvalhomain&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&langs_count=5" alt="Linguagens mais usadas" height="150" />
+</p>
 
-| Projeto | Descrição | Stack | O que demonstra |
-|:---|:---|:---|:---|
-| **[Authdoc](https://github.com/gcarvalhomain/Authdoc)** | API de cadastro e autenticação para organização de documentos | `ASP.NET Core` `Clean Architecture` `JWT` | Separação de camadas, padrão Outbox, Workers |
-| **[ApiUsers](https://github.com/gcarvalhomain/ApiUsers)** | Minimal API de gestão de utilizadores | `Minimal API` `EF Core` `JWT` | CRUD, roles, paginação, filtros, documentação |
-| **[LoudApi](https://github.com/gcarvalhomain/LoudApi)** | API para o VELO — eventos e notícias de CS2 | `ASP.NET Core` `Web API` | Integração com frontend, modelagem de domínio |
-
-</div>
-
-<br/>
-
-<!-- ============ STATS ============ -->
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="25"> &nbsp;GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=gcarvalhomain&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57E0&icon_color=6E57E0&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gcarvalhomain&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57E0&langs_count=6" alt="Top Languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gcarvalhomain&theme=tokyonight&hide_border=true&background=0D1117&ring=6E57E0&fire=6E57E0&currStreakLabel=6E57E0" alt="Streak" />
-
-</div>
-
-<br/>
-
-<!-- ============ FOOTER ============ -->
-<div align="center">
-
-### 💬 Vamos conversar
-
-Aberto a oportunidades, colaborações ou apenas trocar ideias sobre .NET.
-
-<a href="https://www.linkedin.com/in/gabriel-paes-carvalho">
-  <img src="https://img.shields.io/badge/Fala%20comigo%20no%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:6E57E0&height=120&section=footer" width="100%" />
-
-</div>
+<p align="center">
+  Aberto a conversar sobre .NET, oportunidades ou colaboração —
+  <a href="https://www.linkedin.com/in/gabriel-paes-carvalho">LinkedIn</a>
+</p>
