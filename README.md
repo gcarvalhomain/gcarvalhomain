@@ -9,7 +9,7 @@ Backend Developer · .NET / C# · Santarém, Portugal
 
 I build and document **Web APIs with ASP.NET Core**.
 
-By day I'm a Junior Backend Developer sharing a .NET codebase with another developer — branches, pull requests and code review, day in and day out. Outside that I keep personal projects to push into what the job doesn't cover yet: session security, automated testing and a deployment pipeline I own end to end.
+By day I'm a Backend Developer sharing a .NET codebase with another developer — branches, pull requests and code review, day in and day out. Outside that I keep personal projects to push into what the job doesn't cover yet: session security, automated testing and a deployment pipeline I own end to end.
 
 What I care about: someone else should be able to clone the repo, run it and change it without asking me anything. In practice that means consistent validation, predictable HTTP responses, and a README that explains the decisions instead of listing the files.
 
