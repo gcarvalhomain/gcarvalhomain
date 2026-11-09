@@ -9,11 +9,11 @@ Backend Developer · .NET / C# · Santarém, Portugal
 
 I build and document **Web APIs with ASP.NET Core**.
 
-By day I'm a Backend Developer sharing a .NET codebase with another developer — branches, pull requests and code review, day in and day out. Outside that I keep personal projects to push into what the job doesn't cover yet: session security, automated testing and a deployment pipeline I own end to end.
+By day I'm a Backend Developer sharing a .NET codebase with another developer branches, pull requests and code review, day in and day out. Outside that I keep personal projects to push into what the job doesn't cover yet: session security, automated testing and a deployment pipeline I own end to end.
 
 What I care about: someone else should be able to clone the repo, run it and change it without asking me anything. In practice that means consistent validation, predictable HTTP responses, and a README that explains the decisions instead of listing the files.
 
-Open to backend .NET roles around **Santarém, Greater Lisbon or Coimbra** — remote, hybrid or on-site.
+Open to backend .NET roles around **Santarém, Greater Lisbon or Coimbra** remote, hybrid or on-site.
 
 ---
 
@@ -22,7 +22,7 @@ Open to backend .NET roles around **Santarém, Greater Lisbon or Coimbra** — r
 | Area | Technologies |
 | :--- | :--- |
 | **Language** | C# (.NET 8 / .NET 10) |
-| **Web** | ASP.NET Core — Minimal APIs and Web API |
+| **Web** | ASP.NET Core Minimal APIs and Web API |
 | **Data** | Entity Framework Core 10, SQL Server, code-first migrations |
 | **Security** | JWT Bearer, refresh token rotation, role-based authorisation, PBKDF2 hashing, rate limiting |
 | **Design** | Layered separation, Dependency Injection, global exception handling |
@@ -39,7 +39,7 @@ Identity and access API for a document platform aimed at immigrants. The central
 | Built | Decision behind it |
 | :--- | :--- |
 | Stateless JWT authentication | HMAC-SHA256, with issuer, audience, lifetime and signature checked on every request |
-| Refresh token with rotation | Each use issues a new token and revokes the previous one, and only the SHA-256 hash is stored — a leaked database row cannot be replayed as a session |
+| Refresh token with rotation | Each use issues a new token and revokes the previous one, and only the SHA-256 hash is stored a leaked database row cannot be replayed as a session |
 | Role-based authorisation | An `Admin` policy guards the administrative routes, and `Role` is not writable through the update endpoint, so a payload cannot escalate privilege |
 | Password hashing | PBKDF2 with a random salt via the ASP.NET Core password hasher, with format versioning so hashes can be rehashed as the algorithm evolves |
 | Rate limiting | Login and password change are capped per IP and answer `429` beyond that, so the endpoints that guard credentials are not free to brute-force |
